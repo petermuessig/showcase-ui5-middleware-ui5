@@ -18,11 +18,8 @@
     "karma-ci-cov": "karma start karma-ci-cov.conf.js",
     "test": "npm run lint && npm run karma-ci-cov"
   },
-	"dependencies": {
-		"pdfmake": "^0.2.7"
-	},
   "devDependencies": {
-    "@ui5/cli": "^3.6.0",
+    "@ui5/cli": "^3.6.1",
     "eslint": "^8.50.0",
     "karma": "^6.4.2",
     "karma-chrome-launcher": "^3.2.0",
@@ -31,7 +28,7 @@
     "my.test.tsapp": "file:../my.test.tsapp",
     "rimraf": "^5.0.5",
     "ui5-middleware-livereload": "^3.0.1",
-    "ui5-middleware-ui5": "^3.0.0-alpha.2",
-		"ui5-tooling-modules": "^3.0.9"
+    "ui5-middleware-ui5": "^3.0.0-alpha.6",
+		"ui5-tooling-modules": "^3.2.0"
   }
 }
